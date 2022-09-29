@@ -53,4 +53,33 @@ If you're looking for an extra challenge, try tackling some of the tasks below:
 ![](Readme-img/Homepage.png) ![](Readme-img/About%20me.png) ![](Readme-img/My%20projects.png)  ![](Readme-img/Contact.png)
 
 ## Time/Priority Matrix
-- - - 
+
+## MVP
+
+|Component|Priority|Estimated Time|	Actual Time|
+|---------|--------|--------------|------------|
+|Hamburger Menu|H|1hr|hr|
+|Project Previews|H|3hr|hr|
+|Regular Nav|H|1hr|hr|
+|Adding Form|H|1.5hr|hr|
+|Other sections and flex|M|3hr|hr|
+|Working with API|H|3hr|hr|
+|Responsive|H|3hr|hr|
+|Social Media Icons|L|1hr|hr|
+|Total|H|15.5hrs|hrs|
+
+|Component|Priority|Estimated Time|	Actual Time|
+|---------|--------|--------------|------------|
+|Project Hover|L|3hr|-hr|
+|Project Hover|L|1hr|hr|
+|Interactive Banner|M|4hr|hr|
+|Materialize|H|4hr|-hr|
+|Bootstrap|H|4hr|hr|
+|Make own icon|L|4hr|hr|
+|Make own icon|H|20hrs|hrs|
+
+## Additional Libraries Used
+
+## Code Snippet
+
+## Issues and Resolutions
