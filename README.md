@@ -67,7 +67,7 @@ If you're looking for an extra challenge, try tackling some of the tasks below:
 |Responsive|H|3hr|hr|
 |Social Media Icons|L|1hr|hr|
 |Total|H|15.5hrs|hrs|
-
+## PostMVP
 |Component|Priority|Estimated Time|	Actual Time|
 |---------|--------|--------------|------------|
 |Project Hover|L|3hr|-hr|
