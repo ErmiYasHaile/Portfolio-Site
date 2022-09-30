@@ -1,0 +1,28 @@
+/* About, projects, and contact page */
+section {
+    height: 500px;
+    background-color:#DFF6FF ;
+    border: solid black 0.5px;
+}
+.landing_page{
+    background-color: #06283D;
+    height: 100vh;
+    color: whitesmoke;
+    font-size: 35px;
+}
+footer {
+    height: 500px;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    width:  200px;
+    text-decoration: none;
+}
