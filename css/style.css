@@ -40,3 +40,9 @@ nav{
 span{
 	color: #182747;
 }
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
