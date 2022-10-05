@@ -5,6 +5,20 @@ html, body{
     padding: 0px;
     overflow-x: hidden;
 }
+/* .menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  } */
 
 *{
     padding: 0;
@@ -73,9 +87,12 @@ nav ul li a:hover{
 .btn:hover{
 	transform: scale(1.2);
 }
-
+/* img{
+    border-radius: 50%;
+    border: 25px solid black;
+} */
 .content{
-	position: absolute;
+	position: relative;
 	top: 50%;
 	left:8%;
 	transform: translateY(-50%);
@@ -189,7 +206,7 @@ button:hover{
 	cursor: pointer;
 }
 
-.service{
+.project{
 	background: #101010;
 	width: 100%;
 	padding: 100px 0px;
@@ -236,7 +253,7 @@ h5{
 	margin-bottom: 15px;
 }
 
-.pra p{
+.project p{
 	color: rgba(232, 221, 232, 0.8);
 	font-size: 16px;
 	line-height: 27px;
@@ -318,11 +335,11 @@ footer p:nth-child(2){
 	line-height: 26px;
 }
 
-.social{
+.social-media{
 	display: flex;
 }
 
-.social a{
+.social-mediaa{
 	width: 45px;
 	height: 45px;
 	display: flex;
@@ -336,10 +353,26 @@ footer p:nth-child(2){
 	font-size: 20px;
 }
 
-.social a:hover{
+.social-media a:hover{
 	transform: scale(1.3);
 	transition: .3s;
 }
+/* .hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+  }
+  .closeIcon {
+    display: none;
+  }
+  .showMenu {
+    transform: translateY(0);
+  } */
 
 .end{
 	position: absolute;
