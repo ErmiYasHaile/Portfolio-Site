@@ -69,3 +69,14 @@ nav ul li a:hover{
 	border-radius: 30px;
 	transition: transform .4s; 
 }
+
+.btn:hover{
+	transform: scale(1.2);
+}
+
+.content{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
