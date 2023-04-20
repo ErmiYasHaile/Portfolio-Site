@@ -23,29 +23,29 @@ body {
 }
 /* Navbar section */
 .listbar {
-	background-color: white;
-	height: 5rem;
-	width: 30rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 6rem;
-	border: 0.2rem solid #03254c;
-	position: fixed;
-	bottom: 10%;
-	left: 50%;
-	transform: translateX(-50%);
-	margin-bottom: 0;
-  }
-  
-  
-.listbar ul {
-	display: flex;
-	width: 25rem;
+  background-color: white;
+  height: 5rem;
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6rem;
+  border: 0.2rem solid #03254c;
+  position: fixed;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 0;
+  z-index: 99;
 }
 
-.list-item{
-	position: relative;
+.listbar ul {
+  display: flex;
+  width: 25rem;
+}
+
+.list-item {
+  position: relative;
   width: 6rem;
   height: 5rem;
   z-index: 1;
@@ -53,7 +53,7 @@ body {
 }
 
 .list-item a {
-	text-decoration: none;
+  text-decoration: none;
   position: relative;
   display: flex;
   justify-content: center;
@@ -64,23 +64,23 @@ body {
 }
 
 .icons {
-	position: relative;
-	text-align: center;
-	transform: translateY(0.5rem);
-	font-weight: 100;
-	color: #03254c;
-	transition: 0.6s;
-	font-size: 1.5rem;
-	display: flex;
-	align-items: center;
-	border: 4px solid transparent;
-	width: 65px;
-	height: 65px;
-	justify-content: center;
-	border-radius: 50%;
+  position: relative;
+  text-align: center;
+  transform: translateY(0.5rem);
+  font-weight: 100;
+  color: #03254c;
+  transition: 0.6s;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  border: 4px solid transparent;
+  width: 65px;
+  height: 65px;
+  justify-content: center;
+  border-radius: 50%;
 }
 .listbar ul li:hover a .icon {
-	transform: translateY(-1.8rem);
+  transform: translateY(-1.8rem);
   opacity: 1;
   width: 70px;
   height: 70px;
@@ -89,28 +89,28 @@ body {
   color: white;
   border: 3px solid white;
 }
-.bar-text{
-	position: absolute;
-	transition: 0.6s;
-	letter-spacing: 0.08rem;
-	color: #03254c;
-	opacity: 0;
-	transform: translateY(4rem);
-	padding: 3px;
-	text-transform: uppercase;
-	border-radius: 9px;
-	font-weight: 300;
-	font-family: roboto;
+.bar-text {
+  position: absolute;
+  transition: 0.6s;
+  letter-spacing: 0.08rem;
+  color: #03254c;
+  opacity: 0;
+  transform: translateY(4rem);
+  padding: 3px;
+  text-transform: uppercase;
+  border-radius: 9px;
+  font-weight: 300;
+  font-family: roboto;
 }
 
-.listbar ul li:hover .bar-text{
-	opacity: 1;
-	transform: translateY(1.5rem);
-	font-size: 120%;
+.listbar ul li:hover .bar-text {
+  opacity: 1;
+  transform: translateY(1.5rem);
+  font-size: 120%;
 }
 
-.bar-text:active{
-	color: #00a3cc;
+.bar-text:active {
+  color: #00a3cc;
   transition: 0s;
 }
 
@@ -136,17 +136,6 @@ body {
 .showMenu {
   transform: translateY(0);
 }
-
-/* Hamburger */
-
-/* nav {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding-top: 45px;
-	padding-left: 8%;
-	padding-right: 8%;
-} */
 
 .logo {
   color: white;
